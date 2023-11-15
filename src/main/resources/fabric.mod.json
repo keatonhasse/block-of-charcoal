@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "block-of-charcoal",
+	"version": "${version}",
+	"name": "Block of Charcoal",
+	"description": "Adds a Block of Charcoal.",
+	"authors": [
+		"Keaton Hasse"
+	],
+	"contact": {
+		"homepage": "https://github.com/keatonhasse/block-of-charcoal",
+		"sources": "https://github.com/keatonhasse/block-of-charcoal"
+	},
+	"license": "University of Illinois/NCSA",
+	"icon": "assets/block-of-charcoal/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.keatonhasse.BlockOfCharcoal"
+		],
+		"fabric-datagen": [
+			"com.keatonhasse.BlockOfCharcoalDataGenerator"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.19.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
