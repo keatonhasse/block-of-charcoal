@@ -1,0 +1,8 @@
+{
+  "fuels": [
+    {
+      "item": "block-of-charcoal:charcoal_block",
+      "fuel": 9000
+    }
+  ]
+}
